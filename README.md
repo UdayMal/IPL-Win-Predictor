@@ -1,17 +1,20 @@
-- IPL Win Prediction System
+-- **IPL Win Prediction System** -- 
+
 This project predicts the win probability of a team during an IPL (Indian Premier League) match based on real-time match statistics using machine learning. It uses historical match data to train a predictive model that estimates whether the batting team will win the match, considering multiple factors like current score, remaining balls, wickets, and run rate.
 
-- Problem Statement
+- **Problem Statement**
+  
 In a T20 cricket match, predicting the outcome while the game is live is a challenging task due to rapidly changing scenarios. This system attempts to solve that by analyzing the second innings of past IPL matches and predicting the likelihood of a win for the batting team based on current match context.
 
-- Dataset
-i. matches.csv – Contains match-level information such as teams, venue, and winners.
+- **Dataset**
+  
+  i. matches.csv – Contains match-level information such as teams, venue, and winners.
+        
+  ii. deliveries.csv – Contains ball-by-ball data for each match.
+        
+  These datasets are publicly available from Kaggle IPL Dataset.
 
-ii. deliveries.csv – Contains ball-by-ball data for each match.
-
-These datasets are publicly available from Kaggle IPL Dataset.
-
-- Technologies & Libraries Used
+- **Technologies & Libraries Used**
     Python
     
     Pandas, NumPy – Data manipulation
@@ -22,7 +25,7 @@ These datasets are publicly available from Kaggle IPL Dataset.
     
     Train/Test Split – Model validation  
 
-🔄 Workflow
+🔄** Workflow**
 1. Data Cleaning and Preprocessing
 
     Combined matches and deliveries datasets
